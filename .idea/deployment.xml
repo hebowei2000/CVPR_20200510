@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="dpf" uploadOnCheckin="d95432fe-f60e-4b6e-9752-370578746285">
+    <serverData>
+      <paths name="dpf">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/mnt1/yajie/sk_zyj" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hr">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/acdart/sk_zyj/src" local="$PROJECT_DIR$/src" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="hr" />
+  </component>
+</project>

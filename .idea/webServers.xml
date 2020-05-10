@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5a059b3-fdcc-438c-8950-9df98beec2ac" name="dpf" url="http://mengdechao.top">
+        <fileTransfer host="mengdechao.top" port="9201" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="9201" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d95432fe-f60e-4b6e-9752-370578746285" name="hr" url="http://124.16.70.221">
+        <fileTransfer host="124.16.70.221" port="22" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
