@@ -471,7 +471,7 @@ class HighResolutionNet(nn.Module):
                 x_list.append(y_list[i])
         x = self.stage5(x_list)
 
-        ppm = self.aspp(x[3])
+        ppm = self.aspp(x[4])
 
         # Upsampling
         x0_h, x0_w = x[0].size(2), x[0].size(3)
