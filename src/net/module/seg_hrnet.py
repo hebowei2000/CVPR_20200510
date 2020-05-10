@@ -17,8 +17,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn import BatchNorm2d
 
-from net import weight_init
-from net.module import ASPP
+from net.module.modules import weight_init
+from net.module.modules import ASPP
 
 BN_MOMENTUM = 0.01
 logger = logging.getLogger(__name__)
