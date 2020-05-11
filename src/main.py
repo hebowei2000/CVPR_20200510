@@ -153,8 +153,8 @@ def main():
 
     # dataset
     args.data_path = '../data/pixel/'
-    image_root = args.data_path + 'train_new/'
-    gt_root = args.data_path + 'gt_new/'
+    image_root = args.data_path + 'train/'
+    gt_root = args.data_path + 'gt/'
     train_loader = pixel_loader(image_root, gt_root, args.batch_size, args.train_size)
     args.valset = ['test']
 
